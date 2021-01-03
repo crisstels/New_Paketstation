@@ -1,0 +1,13 @@
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.exe
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.deps.json
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.runtimeconfig.json
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.runtimeconfig.dev.json
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.dll
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.pdb
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.csprojAssemblyReference.cache
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.AssemblyInfoInputs.cache
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.AssemblyInfo.cs
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.csproj.CoreCompileInputs.cache
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.dll
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.pdb
+D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.genruntimeconfig.cache
