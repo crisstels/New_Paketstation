@@ -46,15 +46,15 @@ namespace Paketstation
         public Paket Paketeinliefern()
         {
             Console.WriteLine("Sendungsnummer des Pakets: ");
-            _paket.Sendungsnummer = Console.ReadLine();
+            Paket.Sendungsnummer = Console.ReadLine();
             Console.WriteLine("Gewicht des Pakets: ");
-            _paket.Gewicht = Convert.ToInt32(Console.ReadLine());
+            Paket.Gewicht = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Groesse des Pakets (zahl x zahl)");
-            _paket.Groesse = Console.ReadLine();
+            Paket.Groesse = Console.ReadLine();
             Console.WriteLine("Name des Absenders");
-            _paket.Absender = Console.ReadLine();
+            Paket.Absender = Console.ReadLine();
             Console.WriteLine("Name des Empfaengers: ");
-            _paket.Empfaenger = Console.ReadLine();
+            Paket.Empfaenger = Console.ReadLine();
 
             return _paket;
         }

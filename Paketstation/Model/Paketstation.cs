@@ -17,29 +17,13 @@ namespace Paketstation
 
         #region Accessors/Modifiers
 
-        public int ID
-        {
-            get => ID; 
-            set => ID = value;
-        }
+        public int ID { get => id; set => id = value; }
 
-        public string Standort
-        {
-            get => _standort; 
-            set => _standort = value;
-        }
+        public string Standort { get => _standort; set => _standort = value; }
 
-        public UserInterface Terminal
-        {
-            get => _terminal; 
-            set => _terminal = value;
-        }
+        public UserInterface Terminal { get => _terminal; set => _terminal = value; }
         
-        public Paketfach[] Paketfaches
-        {
-            get => _paketfaches;
-            set => _paketfaches = value;
-        }
+        public Paketfach[] Paketfaches { get => _paketfaches; set => _paketfaches = value; }
 
         #endregion
 
@@ -47,12 +31,12 @@ namespace Paketstation
 
         public Paketstation()
         {
-            this._standort = "default";
-            this._terminal = _terminal;
-            this.id = 0;
+            this.Standort = "default";
+            this.Terminal = _terminal;
+            this.ID = 0;
             for (int i = 0; i < 9; i++)
             {
-                _paketfaches[i] = new Paketfach();
+                Paketfaches[i] = new Paketfach();
             }
 
         }
@@ -63,14 +47,14 @@ namespace Paketstation
         // Die Packstation nimmt ein Paket an
         public void PaketAnnehmen(Paket paket)
         {
-            for (int i = 0; i < _paketfaches.Length; i++)
+            for (int i = 0; i < Paketfaches.Length; i++)
             {
-                if (!_paketfaches[i].IstBelegt())
+                if (!Paketfaches[i].IstBelegt())
                 {
-                    _paketfaches[i].Oeffnen();
-                    _paketfaches[i].Inhalt = paket;
-                    _paketfaches[i].Belegt = true;
-                    _paketfaches[i].Schliessen();
+                    Paketfaches[i].Oeffnen();
+                    Paketfaches[i].Inhalt = paket;
+                    Paketfaches[i].Belegt = true;
+                    Paketfaches[i].Schliessen();
                     Console.WriteLine("Ihr Paket wurde erfolgreich abgegeben");
                     return;
                 }
@@ -82,22 +66,22 @@ namespace Paketstation
         public void PaketeListen()
         {
             Console.WriteLine("Verfuegbare Pakete: ");
-            for (int i = 0; i < _paketfaches.Length; i++)
+            for (int i = 0; i < Paketfaches.Length; i++)
             {
-                Console.WriteLine(_paketfaches[i].Inhalt.Sendungsnummer);
+                Console.WriteLine(Paketfaches[i].Inhalt.Sendungsnummer);
             }
             
         }
         // Es wird überprüft, ob das Paket des Kunden in der Paketstation liegt
-        private void Statusabfrage()
+        public void Statusabfrage()
         {
             Console.WriteLine("Bitte geben Sie die Sendungsnummer Ihres Paketes ein: ");
             string temp = Console.ReadLine();
-            for (int i = 0; i < _paketfaches.Length; i++)
+            for (int i = 0; i < Paketfaches.Length; i++)
             {
-                if (_paketfaches[i].Inhalt.Sendungsnummer == temp)
+                if (Paketfaches[i].Inhalt.Sendungsnummer == temp)
                 {
-                    Console.WriteLine("Ihr Paket liegt in Fach %d", i);
+                    Console.WriteLine($"Ihr Paket liegt in Fach {i} ");
                 }
             }
         }
@@ -106,14 +90,14 @@ namespace Paketstation
         {
             Console.WriteLine("Bitte geben Sie die Sendungsnummer Ihres Paketes ein: ");
             string temp = Console.ReadLine();
-            for (int i = 0; i < _paketfaches.Length; i++)
+            for (int i = 0; i < Paketfaches.Length; i++)
             {
-                if (_paketfaches[i].Inhalt.Sendungsnummer == temp)
+                if (Paketfaches[i].Inhalt.Sendungsnummer == temp)
                 {
-                    _paketfaches[i].Oeffnen();
+                    Paketfaches[i].Oeffnen();
                     Console.WriteLine("Bitte entnehmen Sie Ihr Paket");
-                    _paketfaches[i].Schliessen();
-                    _paketfaches[i].Belegt = false;
+                    Paketfaches[i].Schliessen();
+                    Paketfaches[i].Belegt = false;
                     return;
                 }
             }

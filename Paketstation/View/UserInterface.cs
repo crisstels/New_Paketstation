@@ -15,16 +15,8 @@ namespace Paketstation
 
         #region Accessor/Modifier
 
-        public string Text
-        {
-            get => _text;
-            set => _text = value;
-        }
-        public Paket Paket
-        {
-            get => paket;
-            set => paket = value;
-        }
+        public string Text { get => _text; set => _text = value; }
+        public Paket Paket { get => paket; set => paket = value; }
 
         #endregion
 
