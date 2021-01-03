@@ -22,10 +22,41 @@ namespace Paketstation
         public Paket Paket { get => _paket; set => _paket = value; }
         #endregion
 
+        #region Constructor
+
+        public Kunde()
+        {
+            this.Kundennummer = 0;
+            this.Name = "default";
+            this.Adresse = "default";
+            this.Paket = new Paket();
+        }
+
+        public Kunde(int kundennummer, string name, string adresse, Paket paket)
+        {
+            this.Kundennummer = kundennummer;
+            this.Name = name;
+            this.Adresse = adresse;
+            this.Paket = paket;
+        }
+
+        #endregion
+
         #region Worker
         public Paket Paketeinliefern()
         {
-            return this.Paket;
+            Console.WriteLine("Sendungsnummer des Pakets: ");
+            _paket.Sendungsnummer = Console.ReadLine();
+            Console.WriteLine("Gewicht des Pakets: ");
+            _paket.Gewicht = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Groesse des Pakets (zahl x zahl)");
+            _paket.Groesse = Console.ReadLine();
+            Console.WriteLine("Name des Absenders");
+            _paket.Absender = Console.ReadLine();
+            Console.WriteLine("Name des Empfaengers: ");
+            _paket.Empfaenger = Console.ReadLine();
+
+            return _paket;
         }
 
         public void Paketabholen(Paket paket)

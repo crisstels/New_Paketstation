@@ -4,19 +4,9 @@
     <projectFile>Paketstation/Paketstation.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8de46cbb-51ce-4efd-b5eb-278a4f5d848f" name="Default Changelist" comment="added all files">
+    <list default="true" id="8de46cbb-51ce-4efd-b5eb-278a4f5d848f" name="Default Changelist" comment="refactored Paketfach.cs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Model/Paket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Paket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +20,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Paketstation/Controller/Controller.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" />
         <option value="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/Program.cs" />
         <option value="$PROJECT_DIR$/Paketstation/Model/Paket.cs" />
         <option value="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" />
+        <option value="$PROJECT_DIR$/Paketstation/Program.cs" />
         <option value="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" />
+        <option value="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605810162089</updated>
       <workItem from="1605810184994" duration="3521000" />
-      <workItem from="1609677270322" duration="10271000" />
+      <workItem from="1609677270322" duration="11725000" />
     </task>
     <task id="LOCAL-00001" summary="added all files">
       <created>1609679297423</created>
@@ -96,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609679297423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added functionality for bringing and getting packages">
+      <created>1609688384082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609688384082</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactored Paketfach.cs">
+      <created>1609688521732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609688521732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +111,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="added all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added all files" />
+    <MESSAGE value="added functionality for bringing and getting packages" />
+    <MESSAGE value="refactored Paketfach.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored Paketfach.cs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="833" y="418" key="Github.ShareDialog" timestamp="1609678796513">
@@ -146,10 +152,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609685280840" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609679309573">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609688388840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609679309573" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609688388840" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609685198728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
