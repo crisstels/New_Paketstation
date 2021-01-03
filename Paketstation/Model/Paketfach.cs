@@ -21,6 +21,26 @@ namespace Paketstation {
         internal Paket Inhalt { get => _inhalt; set => _inhalt = value; }
         #endregion
 
+        #region Constructor
+
+        public Paketfach()
+        {
+            this._nummer = 0;
+            this._status = true;
+            this._belegt = false;
+            this.Inhalt = new Paket();
+        }
+
+        public Paketfach(int nummer, bool status, bool belegt, Paket inhalt)
+        {
+            this._nummer = nummer;
+            this._status = status;
+            this._belegt = belegt;
+            this._inhalt = inhalt;
+        }
+
+        #endregion
+
         public void Oeffnen()
         {
             this.Status = true;
@@ -33,7 +53,7 @@ namespace Paketstation {
             Console.WriteLine("Fach wird geschlossen...");
         }
 
-        public bool GetBelegt()
+        public bool IstBelegt()
         {
             return this.Belegt;
         }

@@ -1,61 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace Paketstation
 {
-    public class Paket
+    class Paket
     {
-        private string _sendungsnummer;
-        private string _empfaenger;
-        private string _absender;
-        private double _gewicht;
-        private double _groesse;
+        #region Properties
+        private String _sendungsnummer;
+        private int _gewicht;
+        private String _groesse;
+        private String _empfaenger;
+        private String _absender;
+        #endregion
 
-        public Paket(string sendungsnummer, string empfaenger, string absender, double gewicht, double groesse)
-        {
-            Sendungsnummer = sendungsnummer;
-            Empfaenger = empfaenger;
-            Absender = absender;
-            Gewicht = gewicht;
-            Groesse = groesse;
-        }
+        #region Accessors/Modifiers
+        public string Sendungsnummer { get => _sendungsnummer; set => _sendungsnummer = value; }
+        public int Gewicht { get => _gewicht; set => _gewicht = value; }
+        public string Groesse { get => _groesse; set => _groesse = value; }
+        public string Empfaenger { get => _empfaenger; set => _empfaenger = value; }
+        public string Absender { get => _absender; set => _absender = value; }
+        #endregion
 
+        #region Constructor
         public Paket()
         {
-            Sendungsnummer = "xxxxxx";
-            Empfaenger = "Default";
-            Absender = "Default";
-            Gewicht = 0;
-            Groesse = 0; 
-        }
-        #region Accessors
-        public string Sendungsnummer
-        {
-            get => _sendungsnummer;
-            set => _sendungsnummer = value;
+            this.Sendungsnummer = "xxxxxxxxxxx";
+            this.Gewicht = 0;
+            this.Groesse = "0 x 0";
+            this.Empfaenger = "Max Mustermann";
+            this.Absender = "Max Mustermann";
         }
 
-        public string Empfaenger
+        public Paket(string sendungsnummer, int gewicht, string groesse, string empfaenger, string absender)
         {
-            get => _empfaenger;
-            set => _empfaenger = value;
-        }
-
-        public string Absender
-        {
-            get => _absender;
-            set => _absender = value;
-        }
-
-        public double Gewicht
-        {
-            get => _gewicht;
-            set => _gewicht = value;
-        }
-
-        public double Groesse
-        {
-            get => _groesse;
-            set => _groesse = value;
+            this.Sendungsnummer = sendungsnummer;
+            this.Gewicht = gewicht;
+            this.Groesse = groesse;
+            this.Empfaenger = empfaenger;
+            this.Absender = absender;
+ 
         }
         #endregion
-        
+
+        #region Worker
+        public void Standortabfrage()
+        {
+            Console.WriteLine("Geben Sie Ihren Standort ein");
+        }
+        #endregion
     }
 }

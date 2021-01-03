@@ -1,61 +1,37 @@
 using System;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Paketstation
 {
-    public class Kunde
+    class Kunde
     {
-        private string _anschrift;
-        private int _kundennummer;
-        private string _name;
+        #region Properties
         private Paket _paket;
+        private int _kundennummer;
+        private String _name;
+        private String _adresse;
+        #endregion
 
-        public string Anschrift
+        #region Accessors/Modifiers
+        public int Kundennummer { get => _kundennummer; set => _kundennummer = value; }
+        public string Name { get => _name; set => _name = value; }
+        public string Adresse { get => _adresse; set => _adresse = value; }
+        public Paket Paket { get => _paket; set => _paket = value; }
+        #endregion
+
+        #region Worker
+        public Paket Paketeinliefern()
         {
-            get => _anschrift;
-            set => _anschrift = value;
+            return this.Paket;
         }
 
-        public int Kundennummer
+        public void Paketabholen(Paket paket)
         {
-            get => _kundennummer;
-            set => _kundennummer = value;
+            Console.WriteLine("Sie haben Ihr Paket erfolgreich abgeholt.");
         }
-
-        public string Name
-        {
-            get => _name;
-            set => _name = value;
-        }
-
-        public Paket Paket1
-        {
-            get => _paket;
-            set => _paket = value;
-        }
-
-        public Kunde(string name, string anschrift, int kundennummer, Paket paket)
-        {
-            Name = name;
-            Anschrift = anschrift;
-            Kundennummer = kundennummer;
-            Paket1 = paket;
-        }
-
-        public void generate_Paket(Paket paket)
-        {
-            Console.WriteLine("Welches Paket moechten Sie einliefern?(Sendungsnummer)");
-            paket.Sendungsnummer = Console.ReadLine();
-            Console.WriteLine("Gewicht des Pakets ermitteln...");
-            paket.Gewicht = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("groese eingeben: ");
-            paket.Groesse = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("empfaenger eingeben");
-            paket.Empfaenger = Console.ReadLine();
-            Console.WriteLine("absender namen eingeben");
-            paket.Absender = Console.ReadLine();
-
-        }
+        #endregion
     }
 }
