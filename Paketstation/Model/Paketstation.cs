@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,10 +53,14 @@ namespace Paketstation
                 if (!Paketfaches[i].IstBelegt())
                 {
                     Paketfaches[i].Oeffnen();
+                    Thread.Sleep(2000);
                     Paketfaches[i].Inhalt = paket;
                     Paketfaches[i].Belegt = true;
+                    Thread.Sleep(2000);
                     Paketfaches[i].Schliessen();
+                    Thread.Sleep(2000);
                     Console.WriteLine("Ihr Paket wurde erfolgreich abgegeben");
+                    Thread.Sleep(2000);
                     return;
                 }
             }
@@ -95,9 +100,12 @@ namespace Paketstation
                 if (Paketfaches[i].Inhalt.Sendungsnummer == temp)
                 {
                     Paketfaches[i].Oeffnen();
+                    Thread.Sleep(2000);
                     Console.WriteLine("Bitte entnehmen Sie Ihr Paket");
+                    Thread.Sleep(2000);
                     Paketfaches[i].Schliessen();
                     Paketfaches[i].Belegt = false;
+                    Thread.Sleep(2000);
                     return;
                 }
             }
