@@ -44,12 +44,5 @@ namespace Paketstation
  
         }
         #endregion
-
-        #region Worker
-        public void Standortabfrage()
-        {
-            Console.WriteLine("Geben Sie Ihren Standort ein");
-        }
-        #endregion
     }
 }

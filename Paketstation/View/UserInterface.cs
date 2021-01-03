@@ -47,17 +47,7 @@ namespace Paketstation
         #region Worker
         public void Datenannehmen()
         {
-            Console.WriteLine("Wenn Sie Ihr Paket abgeben möchten, dann geben Sie folgende Daten ein: ");
-            Console.WriteLine("Paketnummer: ");
-            paket.Sendungsnummer = Console.ReadLine();
-            Console.WriteLine("Absendername: ");
-            paket.Absender = Console.ReadLine();
-            Console.WriteLine("Gewicht des Pakets: ");
-            paket.Gewicht = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Groesse des Pakets: ");
-            paket.Groesse = Console.ReadLine();
-            Console.WriteLine("Name des Empfaengers: ");
-            paket.Empfaenger = Console.ReadLine();
+            Console.WriteLine(_text);
         }
         #endregion
     }
