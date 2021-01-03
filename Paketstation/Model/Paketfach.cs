@@ -41,6 +41,8 @@ namespace Paketstation {
 
         #endregion
 
+        #region Worker
+
         public void Oeffnen()
         {
             this.Status = true;
@@ -57,5 +59,7 @@ namespace Paketstation {
         {
             return this.Belegt;
         }
+        
+        #endregion
     }
 }
