@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Paketstation
 {
-    class Paket
+    public class Paket
     {
         #region Properties
         private String _sendungsnummer;

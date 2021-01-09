@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Paketstation
 {
-    class Kunde
+    public class Kunde
     {
         #region Properties
         private Paket _paket;
@@ -45,6 +45,7 @@ namespace Paketstation
         #region Worker
         public Paket Paketeinliefern()
         {
+            Paket = new Paket();
             Console.WriteLine("Sendungsnummer des Pakets: ");
             Paket.Sendungsnummer = Console.ReadLine();
             Console.WriteLine("Gewicht des Pakets: ");

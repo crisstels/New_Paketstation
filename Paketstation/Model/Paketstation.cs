@@ -7,24 +7,42 @@ using System.Threading.Tasks;
 
 namespace Paketstation
 {
-    class Paketstation
+    public class Paketstation
     {
         #region Properties
+
         private Paketfach[] _paketfaches = new Paketfach[9];
         private UserInterface _terminal;
         private String _standort;
         private int id;
+
         #endregion
 
         #region Accessors/Modifiers
 
-        public int ID { get => id; set => id = value; }
+        public int ID
+        {
+            get => id;
+            set => id = value;
+        }
 
-        public string Standort { get => _standort; set => _standort = value; }
+        public string Standort
+        {
+            get => _standort;
+            set => _standort = value;
+        }
 
-        public UserInterface Terminal { get => _terminal; set => _terminal = value; }
-        
-        public Paketfach[] Paketfaches { get => _paketfaches; set => _paketfaches = value; }
+        public UserInterface Terminal
+        {
+            get => _terminal;
+            set => _terminal = value;
+        }
+
+        public Paketfach[] Paketfaches
+        {
+            get => _paketfaches;
+            set => _paketfaches = value;
+        }
 
         #endregion
 
@@ -39,12 +57,12 @@ namespace Paketstation
             {
                 Paketfaches[i] = new Paketfach();
             }
-
         }
 
         #endregion
 
         #region Worker
+
         // Die Packstation nimmt ein Paket an
         public void PaketAnnehmen(Paket paket)
         {
@@ -64,7 +82,7 @@ namespace Paketstation
                     return;
                 }
             }
-            
+
             Console.WriteLine("Sorry, diese Paketstation ist voll besetzt. Suchen Sie sich bitte eine andere!");
         }
 
@@ -75,30 +93,45 @@ namespace Paketstation
             {
                 Console.WriteLine(Paketfaches[i].Inhalt.Sendungsnummer);
             }
-            
         }
+
         // Es wird überprüft, ob das Paket des Kunden in der Paketstation liegt
         public void Statusabfrage()
         {
             Console.WriteLine("Bitte geben Sie die Sendungsnummer Ihres Paketes ein: ");
             string temp = Console.ReadLine();
-            Console.WriteLine(temp);
-            for (int i = 0; i < Paketfaches.Length; i++)
+            int index = FindePaketNachSendungsnummer(temp);
+            if (index >= 0)
             {
-                if (Paketfaches[i].Inhalt.Sendungsnummer == temp)
-                {
-                    Console.WriteLine($"Ihr Paket liegt in Fach {i} ");
-                }
+                Console.WriteLine($"Ihr Paket liegt in Fach {index} ");
+            }
+            else
+            {
+                Console.WriteLine($"Ihr Paket mit der Sendungsnummer {temp} liegt nicht in dieser Paketstation");
             }
         }
+
+        public int FindePaketNachSendungsnummer(string nummer)
+        {
+            for (int i = 0; i < Paketfaches.Length; i++)
+            {
+                if (Paketfaches[i].Inhalt.Sendungsnummer.Equals(nummer))
+                {
+                    return i;
+                }
+            }
+
+            return -1;
+        }
+
         // Kunde nimmt Paket aus der Paketstation
         public void PaketAbgeben()
         {
             Console.WriteLine("Bitte geben Sie die Sendungsnummer Ihres Paketes ein: ");
-            string temp = Console.ReadLine();
+            string nummer = Console.ReadLine();
             for (int i = 0; i < Paketfaches.Length; i++)
             {
-                if (Paketfaches[i].Inhalt.Sendungsnummer == temp)
+                if (Paketfaches[i].Inhalt.Sendungsnummer == nummer)
                 {
                     Paketfaches[i].Oeffnen();
                     Thread.Sleep(2000);
@@ -111,11 +144,7 @@ namespace Paketstation
                 }
             }
         }
-
-        public bool ist_Paketstation_voll()
-        {
-            return false;
-        }
+        
         #endregion
     }
 }

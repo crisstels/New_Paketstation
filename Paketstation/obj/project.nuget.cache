@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rNIrsqwC9EP0tSYbSQl7mrg/cP4MVYvgdMapLasjUDqgkHkZOsRdtef9uDi/zrqQMTfjrh6VFrHKn1RyYsiKVg==",
+  "dgSpecHash": "CGU7cWHqKNVYOnhIyR36/WP3NkiaJBp+FBwTS7S/p6YutGFfuxnNqVPiE8A4WcRaQyd0xOW/8d1+YDZZ2PDmIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jotoh\\RiderProjects\\New_Paketstation\\Paketstation\\Paketstation.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

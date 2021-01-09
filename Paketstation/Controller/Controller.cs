@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Paketstation
 {
-    class Controller
+    public class Controller
     {
         #region Properties
         private Paketstation _station;

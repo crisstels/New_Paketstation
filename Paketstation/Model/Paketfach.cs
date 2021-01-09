@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Paketstation { 
-    class Paketfach
+    public class Paketfach
     {
         #region Properties
         private Paket _inhalt;
@@ -18,7 +18,7 @@ namespace Paketstation {
         public int Nummer { get => _nummer; set => _nummer = value; }
         public bool Status { get => _status; set => _status = value; }
         public bool Belegt { get => _belegt; set => _belegt = value; }
-        internal Paket Inhalt { get => _inhalt; set => _inhalt = value; }
+        public Paket Inhalt { get => _inhalt; set => _inhalt = value; }
         #endregion
 
         #region Constructor

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Paketstation
 {
-    class UserInterface
+    public class UserInterface
     {
         #region Properties
         private String _text;
@@ -20,7 +20,7 @@ namespace Paketstation
 
         #endregion
 
-        #region Construktor
+        #region Constructor
 
         public UserInterface()
         {
