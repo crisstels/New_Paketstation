@@ -8,31 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de46cbb-51ce-4efd-b5eb-278a4f5d848f" name="Default Changelist" comment="refactored UserInterface.cs and Paket.cs">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Controller/Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Controller/Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Model/Paket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Paket.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Paketstation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Paketstation.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +19,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -56,9 +41,9 @@
       <option value="$PROJECT_DIR$/Paketstation/Programm.cs" />
       <option value="$PROJECT_DIR$/Paketstation/Program.cs" />
       <option value="$PROJECT_DIR$/TestProject1/UnitTest1.cs" />
-      <option value="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" />
       <option value="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" />
       <option value="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" />
+      <option value="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kWIws79HD5jBV5gM2OxctZFuKc" />
@@ -112,7 +97,7 @@
       <workItem from="1605810184994" duration="3521000" />
       <workItem from="1609677270322" duration="14421000" />
       <workItem from="1610200757647" duration="3422000" />
-      <workItem from="1610205575100" duration="4301000" />
+      <workItem from="1610205575100" duration="4566000" />
     </task>
     <task id="LOCAL-00001" summary="added all files">
       <created>1609679297423</created>
@@ -156,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610204656831</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added unit test, debuggd paket_einliefern">
+      <created>1610210006410</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610210006410</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,26 +176,8 @@
     <MESSAGE value="refactored Kunde.cs" />
     <MESSAGE value="refactored UserInterface.cs and Paket.cs" />
     <MESSAGE value="added menu in UserInterface.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added menu in UserInterface.cs" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Paketstation/Model/Paketstation.cs</url>
-          <line>68</line>
-          <properties documentPath="C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\Model\Paketstation.cs" initialLine="68" containingFunctionPresentation="method 'PaketAnnehmen'">
-            <startOffsets>
-              <option value="1406" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1450" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added unit test, debuggd paket_einliefern" />
+    <option name="LAST_COMMIT_MESSAGE" value="added unit test, debuggd paket_einliefern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Paketstation { 
+namespace Paketstation {
     public class Paketfach
     {
         #region Properties
         private Paket _inhalt;
         private int _nummer;
+        // false = ist geöffnet & true = ist geschlossen
         private bool _status;
+        // false = nicht belegt & true = ist belegt
         private bool _belegt;
         #endregion
 
