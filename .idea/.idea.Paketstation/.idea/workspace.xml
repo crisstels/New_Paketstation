@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de46cbb-51ce-4efd-b5eb-278a4f5d848f" name="Default Changelist" comment="refactored UserInterface.cs and Paket.cs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paketstation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/Controller/Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Controller/Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paketstation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/bin/Debug/netcoreapp3.1/Paketstation.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Debug/netcoreapp3.1/Paketstation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Paketstation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Paketstation.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/Paketstation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/Paketstation.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paketstation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Paketstation/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +38,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Paketstation/Model/Paketfach.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/Model/Paket.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/Model/Kunde.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/Program.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/Controller/Controller.cs" />
-        <option value="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Paketstation/Paketstation.csproj" />
+      <option value="$PROJECT_DIR$/Paketstation/View/UserInterface.cs" />
+      <option value="$PROJECT_DIR$/Paketstation/Model/Paketstation.cs" />
+      <option value="$PROJECT_DIR$/Paketstation/Controller/Controller.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1kWIws79HD5jBV5gM2OxctZFuKc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,7 +62,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -86,6 +95,7 @@
       <updated>1605810162089</updated>
       <workItem from="1605810184994" duration="3521000" />
       <workItem from="1609677270322" duration="14421000" />
+      <workItem from="1610200757647" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="added all files">
       <created>1609679297423</created>
@@ -130,6 +140,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="added all files" />
@@ -138,51 +159,5 @@
     <MESSAGE value="refactored Kunde.cs" />
     <MESSAGE value="refactored UserInterface.cs and Paket.cs" />
     <option name="LAST_COMMIT_MESSAGE" value="refactored UserInterface.cs and Paket.cs" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="833" y="418" key="Github.ShareDialog" timestamp="1609678796513">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="833" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609678796513" />
-    <state x="681" y="226" key="Github.UntrackedFilesDialog" timestamp="1609678805936">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="681" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609678805936" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1609692241524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609692241524" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1609692241524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609692241524" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1609692241524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609692241524" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1609692241524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609692241524" />
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1609678614783">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1609678614783" />
-    <state x="764" y="194" key="RiderGenerateDialog" timestamp="1609685593468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="764" y="194" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609685593468" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1609685280840">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609685280840" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609689751056">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609689751056" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609685198728">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609685198728" />
   </component>
 </project>

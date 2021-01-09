@@ -11,3 +11,16 @@ D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstat
 D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.dll
 D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.pdb
 D:\Users\NatalieHasselmann\Documents\c#_schule\2.Lehrjahr\Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.genruntimeconfig.cache
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.exe
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.deps.json
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.runtimeconfig.json
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.runtimeconfig.dev.json
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.dll
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\bin\Debug\netcoreapp3.1\Paketstation.pdb
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.csprojAssemblyReference.cache
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.AssemblyInfoInputs.cache
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.AssemblyInfo.cs
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.csproj.CoreCompileInputs.cache
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.dll
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.pdb
+C:\Users\jotoh\RiderProjects\New_Paketstation\Paketstation\obj\Debug\netcoreapp3.1\Paketstation.genruntimeconfig.cache

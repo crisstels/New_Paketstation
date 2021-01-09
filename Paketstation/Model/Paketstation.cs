@@ -82,6 +82,7 @@ namespace Paketstation
         {
             Console.WriteLine("Bitte geben Sie die Sendungsnummer Ihres Paketes ein: ");
             string temp = Console.ReadLine();
+            Console.WriteLine(temp);
             for (int i = 0; i < Paketfaches.Length; i++)
             {
                 if (Paketfaches[i].Inhalt.Sendungsnummer == temp)

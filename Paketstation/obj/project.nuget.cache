@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "o3OXLiEnOHN++KO4Y2lxEGJrKA3IV4PlHWJnCfuV1PPmAFSni+IFN+/sMB1QCHBL65lzXVvsq9omf0KpavBYTA==",
+  "dgSpecHash": "rNIrsqwC9EP0tSYbSQl7mrg/cP4MVYvgdMapLasjUDqgkHkZOsRdtef9uDi/zrqQMTfjrh6VFrHKn1RyYsiKVg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\NatalieHasselmann\\Documents\\c#_schule\\2.Lehrjahr\\Paketstation\\Paketstation\\Paketstation.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\jotoh\\RiderProjects\\New_Paketstation\\Paketstation\\Paketstation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jotoh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

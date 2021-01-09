@@ -44,18 +44,13 @@ namespace Paketstation
         {
             while (true)
             {
-                Console.WriteLine("Willkommen zu unserer Paketstation\n" + "Wie kann ich Ihnen weiterhelfen?");
-                Console.WriteLine("1 Statusabfrage des Pakets");
-                Console.WriteLine("2 Paket verschicken");
-                Console.WriteLine("3 Paket abholen");
-                Console.WriteLine("4 beenden");
-
-                int temp = Convert.ToInt32(Console.ReadLine());
-                if (temp == 4)
+                int auswahl = Io.Menueauswahl();
+                if (auswahl == 4)
                 {
+                    Console.WriteLine("Auf Wiedersehen!");
                     break;
                 }
-                switch (temp)
+                switch (auswahl)
                 {
                     case 1:
                         Statusabfrage();

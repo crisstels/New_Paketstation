@@ -41,6 +41,21 @@ namespace Paketstation
         {
             Console.WriteLine(_text);
         }
+
+        public int Menueauswahl()
+        {
+            Console.WriteLine("Willkommen zu unserer Paketstation\n" + "Wie kann ich Ihnen weiterhelfen?");
+            Console.WriteLine("1 Statusabfrage des Pakets");
+            Console.WriteLine("2 Paket verschicken");
+            Console.WriteLine("3 Paket abholen");
+            Console.WriteLine("4 beenden");
+
+            int auswahl = Convert.ToInt16(Console.ReadLine());
+
+            return auswahl;
+
+
+        }
         #endregion
     }
 }
