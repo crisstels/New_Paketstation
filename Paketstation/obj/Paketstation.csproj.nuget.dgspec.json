@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jotoh\\RiderProjects\\New_Paketstation\\Paketstation\\Paketstation.csproj": {}
+    "D:\\Users\\NatalieHasselmann\\Documents\\c#_schule\\2.Lehrjahr\\New_Paketstation\\Paketstation\\Paketstation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jotoh\\RiderProjects\\New_Paketstation\\Paketstation\\Paketstation.csproj": {
+    "D:\\Users\\NatalieHasselmann\\Documents\\c#_schule\\2.Lehrjahr\\New_Paketstation\\Paketstation\\Paketstation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jotoh\\RiderProjects\\New_Paketstation\\Paketstation\\Paketstation.csproj",
+        "projectUniqueName": "D:\\Users\\NatalieHasselmann\\Documents\\c#_schule\\2.Lehrjahr\\New_Paketstation\\Paketstation\\Paketstation.csproj",
         "projectName": "Paketstation",
-        "projectPath": "C:\\Users\\jotoh\\RiderProjects\\New_Paketstation\\Paketstation\\Paketstation.csproj",
-        "packagesPath": "C:\\Users\\jotoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jotoh\\RiderProjects\\New_Paketstation\\Paketstation\\obj\\",
+        "projectPath": "D:\\Users\\NatalieHasselmann\\Documents\\c#_schule\\2.Lehrjahr\\New_Paketstation\\Paketstation\\Paketstation.csproj",
+        "packagesPath": "C:\\Users\\NatalieHasselmann\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\NatalieHasselmann\\Documents\\c#_schule\\2.Lehrjahr\\New_Paketstation\\Paketstation\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jotoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NatalieHasselmann\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\jotoh\\.dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

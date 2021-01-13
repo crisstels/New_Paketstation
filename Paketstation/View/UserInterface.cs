@@ -56,6 +56,23 @@ namespace Paketstation
 
 
         }
+
+        public Paket Dateneingabe()
+        {
+            Paket paket = new Paket();
+            Console.WriteLine("Sendungsnummer des Pakets: ");
+            paket.Sendungsnummer = Console.ReadLine();
+            Console.WriteLine("Gewicht des Pakets: ");
+            paket.Gewicht = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Groesse des Pakets (zahl x zahl)");
+            paket.Groesse = Console.ReadLine();
+            Console.WriteLine("Name des Absenders");
+            paket.Absender = Console.ReadLine();
+            Console.WriteLine("Name des Empfaengers: ");
+            paket.Empfaenger = Console.ReadLine();
+
+            return paket;
+        }
         #endregion
     }
 }
