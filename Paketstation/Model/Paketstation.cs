@@ -86,15 +86,6 @@ namespace Paketstation
             Console.WriteLine("Sorry, diese Paketstation ist voll besetzt. Suchen Sie sich bitte eine andere!");
         }
 
-        public void PaketeListen()
-        {
-            Console.WriteLine("Verfuegbare Pakete: ");
-            for (int i = 0; i < Paketfaches.Length; i++)
-            {
-                Console.WriteLine(Paketfaches[i].Inhalt.Sendungsnummer);
-            }
-        }
-
         // Es wird überprüft, ob das Paket des Kunden in der Paketstation liegt
         public void Statusabfrage()
         {
@@ -110,14 +101,17 @@ namespace Paketstation
                 Console.WriteLine($"Ihr Paket mit der Sendungsnummer {temp} liegt nicht in dieser Paketstation");
             }
         }
-
+        // Die Paketstation wird anhand der Sendungsnummer das Paket des Kunden suchen
         public int FindePaketNachSendungsnummer(string nummer)
         {
             for (int i = 0; i < Paketfaches.Length; i++)
             {
-                if (Paketfaches[i].Inhalt.Sendungsnummer.Equals(nummer))
+                if (Paketfaches[i].Belegt)
                 {
-                    return i;
+                    if (Paketfaches[i].Inhalt.Sendungsnummer.Equals(nummer))
+                    {
+                        return i;
+                    }
                 }
             }
 
@@ -125,7 +119,7 @@ namespace Paketstation
         }
 
         // Kunde nimmt Paket aus der Paketstation
-        public void PaketAbgeben()
+        public Paket PaketAbgeben()
         {
             Console.WriteLine("Bitte geben Sie die Sendungsnummer Ihres Paketes ein: ");
             string nummer = Console.ReadLine();
@@ -140,9 +134,11 @@ namespace Paketstation
                     Paketfaches[i].Schliessen();
                     Paketfaches[i].Belegt = false;
                     Thread.Sleep(2000);
-                    return;
+                    return Paketfaches[i].Inhalt;
                 }
             }
+            
+            return null;
         }
         
         #endregion

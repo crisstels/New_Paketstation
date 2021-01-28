@@ -75,7 +75,7 @@ namespace Paketstation
 
             Kunde1.Paket1 = Io.Dateneingabe();
             
-            Station.PaketAnnehmen(_kunde1.PaketAbholen());
+            Station.PaketAnnehmen(_kunde1.PaketAbgeben());
         }
 
         public void Statusabfrage()
@@ -85,7 +85,7 @@ namespace Paketstation
 
         public void PaketAusgeben()
         {
-            Station.PaketAbgeben();
+            Kunde1.PaketAbholen(Station.PaketAbgeben());
         }
     }
 }

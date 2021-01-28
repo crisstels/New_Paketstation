@@ -10,13 +10,11 @@ namespace Paketstation
     {
         #region Properties
         private String _text;
-        private Paket paket;
         #endregion
 
         #region Accessor/Modifier
 
         public string Text { get => _text; set => _text = value; }
-        public Paket Paket { get => paket; set => paket = value; }
 
         #endregion
 
@@ -25,13 +23,11 @@ namespace Paketstation
         public UserInterface()
         {
             this.Text = "default";
-            this.paket = new Paket();
         }
 
-        public UserInterface(string text, Paket paket)
+        public UserInterface(string text)
         {
             this.Text = text;
-            this.paket = paket;
         }
 
         #endregion

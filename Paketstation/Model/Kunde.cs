@@ -43,7 +43,8 @@ namespace Paketstation
         #endregion
 
         #region Worker
-        public Paket PaketAbholen()
+        //Der Kunde gibt sein Paket bei der Paketstation ab
+        public Paket PaketAbgeben()
         {
             if (Paket1 == null)
                 throw new Exception("Sie besitzen kein Paket zum abholen!");
@@ -52,8 +53,8 @@ namespace Paketstation
             Paket1 = null;
             return res;
         }
-
-        public void PaketAbgeben(Paket paket)
+        // Der Kunde holt ein Paket von der Paketstation ab
+        public void PaketAbholen(Paket paket)
         {
             if (paket != null)
             {
