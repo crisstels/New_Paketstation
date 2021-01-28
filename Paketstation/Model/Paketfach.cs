@@ -44,23 +44,23 @@ namespace Paketstation {
         #endregion
 
         #region Worker
-
+        // Das Fach wird geoeffnet
         public void Oeffnen()
         {
             this.Status = true;
             Console.WriteLine("Fach wird geoeffnet....");
         }
-
+        // Das Fach wird geschlossen
         public void Schliessen()
         {
             this.Status = false;
             Console.WriteLine("Fach wird geschlossen...");
         }
-
+        // Überprüft, ob das Fach geschlossen ist
         public bool IstBelegt()
         {
             return this.Belegt;
-        }
+        }    
         
         #endregion
     }

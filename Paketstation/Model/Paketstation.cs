@@ -20,29 +20,13 @@ namespace Paketstation
 
         #region Accessors/Modifiers
 
-        public int ID
-        {
-            get => id;
-            set => id = value;
-        }
+        public int ID { get => id; set => id = value; }
 
-        public string Standort
-        {
-            get => _standort;
-            set => _standort = value;
-        }
+        public string Standort { get => _standort; set => _standort = value; }
 
-        public UserInterface Terminal
-        {
-            get => _terminal;
-            set => _terminal = value;
-        }
+        public UserInterface Terminal{ get => _terminal; set => _terminal = value; }
 
-        public Paketfach[] Paketfaches
-        {
-            get => _paketfaches;
-            set => _paketfaches = value;
-        }
+        public Paketfach[] Paketfaches { get => _paketfaches; set => _paketfaches = value; }
 
         #endregion
 

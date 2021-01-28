@@ -33,11 +33,12 @@ namespace Paketstation
         #endregion
 
         #region Worker
+        // Zeigt auf der Konsole Text an
         public void Datenannehmen()
         {
             Console.WriteLine(_text);
         }
-
+        // Zeigt auf der Konsole das Menü an
         public int Menueauswahl()
         {
             Console.WriteLine("Willkommen zu unserer Paketstation\n" + "Wie kann ich Ihnen weiterhelfen?");
@@ -52,7 +53,7 @@ namespace Paketstation
 
 
         }
-
+        // Die Daten des Kunden werden aufgenommen
         public Paket Dateneingabe()
         {
             Paket paket = new Paket();

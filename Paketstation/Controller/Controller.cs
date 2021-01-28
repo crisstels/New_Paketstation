@@ -39,7 +39,7 @@ namespace Paketstation
         }
 
         #endregion
-
+        // Der komplette Ablauf der Paketstation
         public void run()
         {
             while (true)
@@ -67,7 +67,7 @@ namespace Paketstation
                 }
             }
         }
-
+        // Die Paketstaion nimmt das Paket des Kunden an
         public void PaketAnnehmen()
         {
             Console.WriteLine("Sie haben die Funktion Paket verschicken gewaehlt.\n" + 
@@ -77,14 +77,16 @@ namespace Paketstation
             
             Station.PaketAnnehmen(_kunde1.PaketAbgeben());
         }
-
+        // Es wird überprüft, ob das Paket des Kunden in der Paketstation liegt und wenn ja in welchem Fach.
         public void Statusabfrage()
         {
+            Console.WriteLine("Sie haben die Funktion Statusabfrages Ihres Paket gewaehlt!");
             Station.Statusabfrage();
         }
-
+        // Der Kunde entnimmt sein Paket aus der Paketstation
         public void PaketAusgeben()
         {
+            Console.WriteLine("Sie haben die Funktion Paket abholen gewaehlt!");
             Kunde1.PaketAbholen(Station.PaketAbgeben());
         }
     }
