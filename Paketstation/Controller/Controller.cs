@@ -72,8 +72,10 @@ namespace Paketstation
         {
             Console.WriteLine("Sie haben die Funktion Paket verschicken gewaehlt.\n" + 
                               "Geben Sie nun bitte folgende Daten ein: \n");
+
+            Kunde1.Paket1 = Io.Dateneingabe();
             
-            Station.PaketAnnehmen(_kunde1.Paketeinliefern());
+            Station.PaketAnnehmen(_kunde1.PaketAbholen());
         }
 
         public void Statusabfrage()

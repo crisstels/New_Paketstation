@@ -43,19 +43,18 @@ namespace Paketstation
         #endregion
 
         #region Worker
-        public Paket Paketeinliefern()
+        public Paket PaketAbholen()
         {
             if (Paket1 == null)
-                throw new Exception("Sie besitzen kein Paket zum abgeben!");
+                throw new Exception("Sie besitzen kein Paket zum abholen!");
 
             Paket res = Paket1;
             Paket1 = null;
             return res;
         }
 
-        public void Paketabholen(Paket paket)
+        public void PaketAbgeben(Paket paket)
         {
-            Console.WriteLine("Sie haben Ihr Paket erfolgreich abgeholt.");
             if (paket != null)
             {
                 if (Paket1 != null)
