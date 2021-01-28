@@ -1,3 +1,10 @@
+/* Autor: Natalie Hasselmann
+*  Klasse: IA219
+*  Dateiname: Paket.cs
+*  Datum: 28.01.2021
++  Beschreibung: Bildet ein Paket ab
+*  Letze Aenderung: 28.01.2021 Codestyle wurde verbessert
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,3 +1,10 @@
+/* Autor: Natalie Hasselmann
+*  Klasse: IA219
+*  Dateiname: UnserInterface.cs
+*  Datum: 28.01.2021
++  Beschreibung: Schnittstelle zwischen User und Programm
+*  Letze Aenderung: 28.01.2021 Methode DatenEingabe wurde verbessert
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,7 +46,7 @@ namespace Paketstation
             Console.WriteLine(_text);
         }
         // Zeigt auf der Konsole das Menü an
-        public int Menueauswahl()
+        public int MenueAuswahl()
         {
             Console.WriteLine("Willkommen zu unserer Paketstation\n" + "Wie kann ich Ihnen weiterhelfen?");
             Console.WriteLine("1 Statusabfrage des Pakets");
@@ -54,7 +61,7 @@ namespace Paketstation
 
         }
         // Die Daten des Kunden werden aufgenommen
-        public Paket Dateneingabe()
+        public Paket DatenEingabe()
         {
             Paket paket = new Paket();
             Console.WriteLine("Sendungsnummer des Pakets: ");

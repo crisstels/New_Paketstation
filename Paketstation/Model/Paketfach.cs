@@ -1,3 +1,10 @@
+/* Autor: Natalie Hasselmann
+*  Klasse: IA219
+*  Dateiname: Paketfach.cs
+*  Datum: 28.01.2021
++  Beschreibung: Bildet ein einfaches Fach einer Paketstation ab
+*  Letzte Aenderung: 28.01.2021 Codestyle wurde verbessert
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;

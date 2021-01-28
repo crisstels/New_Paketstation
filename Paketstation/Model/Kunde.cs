@@ -1,3 +1,10 @@
+/* Autor: Natalie Hasselmann
+*  Klasse: IA219
+*  Dateiname: Kunde.cs
+*  Datum: 28.01.2021
++  Beschreibung: Bildet einen Kunden ab
+*  Letze Aenderung: 28.01.2021 Aggregation wurde hinzugefügt
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;

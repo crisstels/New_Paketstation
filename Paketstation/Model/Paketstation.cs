@@ -1,3 +1,10 @@
+/* Autor: Natalie Hasselmann
+*  Klasse: IA219
+*  Dateiname: Paketstation.cs
+*  Datum: 28.01.2021
++  Beschreibung: Bildet eine Paketstation ab mit 9 Faecher, welche alle die gleiche Groesse haben
+*  Letze Aenderung: 28.01.2021 Methode PaketAnnehmen und Paketabgeben wurden verbessert
+*/
 using System;
 using System.Threading;
 using System.Collections.Generic;

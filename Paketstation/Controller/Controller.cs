@@ -1,3 +1,10 @@
+/* Autor: Natalie Hasselmann
+*  Klasse: IA219
+*  Dateiname: Controller.cs
+*  Datum: 28.01.2021
++  Beschreibung: Steuert die Paketstation
+*  Letze Aenderung: 28.01.2021 Methode PaketAnnehmen und Paketabgeben wurden verbessert
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,7 +51,7 @@ namespace Paketstation
         {
             while (true)
             {
-                int auswahl = Io.Menueauswahl();
+                int auswahl = Io.MenueAuswahl();
                 if (auswahl == 4)
                 {
                     Console.WriteLine("Auf Wiedersehen!");
@@ -73,7 +80,7 @@ namespace Paketstation
             Console.WriteLine("Sie haben die Funktion Paket verschicken gewaehlt.\n" + 
                               "Geben Sie nun bitte folgende Daten ein: \n");
 
-            Kunde1.Paket1 = Io.Dateneingabe();
+            Kunde1.Paket1 = Io.DatenEingabe();
             
             Station.PaketAnnehmen(_kunde1.PaketAbgeben());
         }
